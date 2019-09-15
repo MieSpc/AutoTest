@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter_10" />
         <module name="chapter_11" />
+        <module name="chapter_12" />
         <module name="chapter_5" />
         <module name="chapter_6" />
         <module name="chapter_9" />
@@ -17,6 +18,7 @@
       <module name="AutoTest" target="1.8" />
       <module name="chapter_10" target="1.8" />
       <module name="chapter_11" target="1.8" />
+      <module name="chapter_12" target="1.8" />
       <module name="chapter_5" target="1.5" />
       <module name="chapter_6" target="6" />
       <module name="chapter_9" target="1.5" />
