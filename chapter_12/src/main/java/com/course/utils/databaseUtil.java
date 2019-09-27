@@ -11,7 +11,7 @@ import java.io.Reader;
 
 public class databaseUtil {
     public static SqlSession getSqlsession() throws IOException {
-        Reader reader = Resources.getResourceAsReader("databeseConfig.xml");
+        Reader reader = Resources.getResourceAsReader("databaseConfig.xml");
 
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(reader);
 
