@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.ide.eclipse:org.json:1.0.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/ide/eclipse/org.json/1.0.0-SNAPSHOT/org.json-1.0.0-20190917.121142-189.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/ide/eclipse/org.json/1.0.0-SNAPSHOT/org.json-1.0.0-20191004.005859-220.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/ide/eclipse/org.json/1.0.0-SNAPSHOT/org.json-1.0.0-20190917.121142-189-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/ide/eclipse/org.json/1.0.0-SNAPSHOT/org.json-1.0.0-20191004.005859-220-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/ide/eclipse/org.json/1.0.0-SNAPSHOT/org.json-1.0.0-20190917.121142-189-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/ide/eclipse/org.json/1.0.0-SNAPSHOT/org.json-1.0.0-20191004.005859-220-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
