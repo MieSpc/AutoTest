@@ -25,7 +25,8 @@ public class LoginTest {
         TestConfig.updateUserInfoUrl = ConfigFile.getUrl(InterfaceName.UPDATEUSERINFO);
         TestConfig.loginUrl = ConfigFile.getUrl(InterfaceName.LOGIN);
 //        TestConfig.defaultHttpClient = new DefaultHttpClient();
-        TestConfig.client = HttpClientBuilder.create().build();
+//        TestConfig.client = HttpClientBuilder.create().build();
+        TestConfig.httpClient = HttpClients.createDefault();
 
     }
 

@@ -30,7 +30,7 @@ public class ConfigFile {
             uri = bundle.getString("getUserList.uri");
         }
 
-        requestUrl = uri + address;
+        requestUrl = address + uri;
         return requestUrl;
     }
 }
