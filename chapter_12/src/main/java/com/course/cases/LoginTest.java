@@ -31,7 +31,7 @@ public class LoginTest {
     }
 
     @Test(groups = "loginTrue",description = "用户登录成功接口测试")
-    public void loginTrue () throws IOException {
+    public void testLoginTrue () throws IOException {
         SqlSession session = databaseUtil.getSqlsession();
         LoginCase loginCase = session.selectOne("loginCase",1);
         System.out.println(loginCase.toString());
@@ -40,7 +40,7 @@ public class LoginTest {
     }
 
     @Test(groups = "loginFalse",description = "用户登录失败接口测试")
-    public void loginFalse () throws IOException {
+    public void testLoginFalse () throws IOException {
         SqlSession session = databaseUtil.getSqlsession();
         LoginCase loginCase = session.selectOne("loginCase",2);
         System.out.println(loginCase.toString());

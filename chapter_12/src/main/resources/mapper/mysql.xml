@@ -12,16 +12,21 @@
     
     <!--添加用户接口case-->
     <select id="addUserCase" parameterType="Integer" resultType="com.course.model.AddUserCase">
-        select * from addUserCase where id = #{id};
+        select * from t_addusercase where id = #{id};
     </select>
 
     <!--获取用户接口case-->
-    <select id="getUserListCase" parameterType="Integer" resultType="com.course.model.AddUserCase">
-        select * from addUserCase where id = #{id};
+    <select id="getUserInfoCase" parameterType="Integer" resultType="com.course.model.GetUseInfoCase">
+        select * from t_getuserinfocase where id = #{id};
     </select>
 
-    <!--添加用户接口case-->
-    <select id="addUserCase" parameterType="Integer" resultType="com.course.model.AddUserCase">
-        select * from addUserCase where id = #{id};
+    <!--获取用户列表case-->
+    <select id="getUserListCase" parameterType="Integer" resultType="com.course.model.GetUserListCase">
+        select * from t_getuserlistcase where id = #{id};
+    </select>
+
+    <!--更新/删除用户信息case-->
+    <select id="UpdateUserInfo" parameterType="Integer" resultType="com.course.model.UpdateUserInfoCase">
+        select * from t_updateuserinfocase where id = #{id};
     </select>
 </mapper>

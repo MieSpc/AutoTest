@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class UpdateUserInfoTest {
 
-    @Test(dependsOnGroups = "LonginTrue",description = "更新用户信息")
+    @Test(dependsOnGroups = "loginTrue",description = "更新用户信息")
     public void testUpdateUserInfo() throws IOException {
         SqlSession session = databaseUtil.getSqlsession();
         UpdateUserInfoTest updateUserInfoTest = session.selectOne("UpdateUserInfo",1);
@@ -17,7 +17,7 @@ public class UpdateUserInfoTest {
         System.out.println(TestConfig.updateUserInfoUrl);
     }
 
-    @Test(dependsOnGroups = "LonginTrue",description = "删除用户信息")
+    @Test(dependsOnGroups = "loginTrue",description = "删除用户信息")
     public void testDeletUser () throws IOException {
         SqlSession session = databaseUtil.getSqlsession();
         UpdateUserInfoTest updateUserInfoTest = session.selectOne("UpdateUserInfo",2);

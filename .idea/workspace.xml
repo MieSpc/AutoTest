@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d20df8-483a-482b-8cd4-d953db3fe076" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/UpdateUserInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ide_eclipse_org_json_1_0_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ide_eclipse_org_json_1_0_0_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/chapter_12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/chapter_12.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/target/classes/com/course/cases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/target/classes/com/course/cases/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/target/classes/com/course/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/target/classes/com/course/config/TestConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/target/classes/com/course/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/chapter/target/" />
     <ignored path="$PROJECT_DIR$/chapter_9/target/" />
@@ -51,8 +43,20 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="151">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetUserListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +67,8 @@
       <file leaf-file-name="UpdateUserInfoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/UpdateUserInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="340">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,23 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="68">
+              <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetUserListTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java">
+      <file leaf-file-name="GetUserInfoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -110,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter/src/main/resources/Paramter.xml" />
-        <option value="$PROJECT_DIR$/chapter/src/main/java/com/course/testng/paramter/DataProviderTest.java" />
         <option value="$PROJECT_DIR$/pom.fxml" />
         <option value="$PROJECT_DIR$/chapter_9/pom.xml" />
         <option value="$PROJECT_DIR$/chapter_6/src/test/java/com/testng/extend/demo/extendDemo.java" />
@@ -136,7 +135,6 @@
         <option value="$PROJECT_DIR$/chapter_11/src/main/resources/mapper/mysql.xml" />
         <option value="$PROJECT_DIR$/chapter_11/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/chapter_11/src/main/java/com/course/model/User.java" />
-        <option value="$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/User.java" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/model/GetUseInfoCase.java" />
@@ -151,16 +149,19 @@
         <option value="$PROJECT_DIR$/chapter_12/src/main/resources/databaseConfig.xml" />
         <option value="$PROJECT_DIR$/chapter_11/pom.xml" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/utils/ConfigFile.java" />
-        <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/chapter_12/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/UpdateUserInfoTest.java" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoListCase.java" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoCase.java" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserCase.java" />
-        <option value="$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListCase.java" />
+        <option value="$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml" />
+        <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoTest.java" />
+        <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/UpdateUserInfoTest.java" />
         <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java" />
+        <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserTest.java" />
+        <option value="$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml" />
       </list>
     </option>
   </component>
@@ -205,7 +206,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
     <option name="y" value="454" />
     <option name="width" value="1373" />
@@ -376,7 +377,7 @@
     </option>
     <option name="contentProportion" value="0.16124031" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -396,7 +397,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserTest.testAddUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chapter_12" />
       <extension name="coverage">
         <pattern>
@@ -408,10 +409,33 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.course.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.course.cases.AddUserTest" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter_12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -499,6 +523,93 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LoginTest.testLoginFalse" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginFalse" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LoginTest.testLoginTrue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginTrue" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -534,8 +645,19 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml" />
+      <item itemvalue="TestNG.LoginTest.testLoginTrue" />
+      <item itemvalue="TestNG.LoginTest.testLoginFalse" />
+      <item itemvalue="TestNG.AddUserTest.testAddUser" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.AddUserTest.testAddUser" />
+        <item itemvalue="TestNG.LoginTest.testLoginFalse" />
+        <item itemvalue="TestNG.LoginTest.testLoginTrue" />
         <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
@@ -565,29 +687,11 @@
       <workItem from="1572268840587" duration="6509000" />
       <workItem from="1574255676601" duration="3839000" />
       <workItem from="1574604701461" duration="791000" />
-      <workItem from="1577584945809" duration="1290000" />
+      <workItem from="1577584945809" duration="3199000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_(1) - 2019.10.28 at 21h 47m 03s.xml">
-      <configuration name="LoginTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_(2) - 2019.10.28 at 21h 47m 12s.xml">
-      <configuration name="LoginTest (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_(4) - 2019.10.30 at 20h 05m 14s.xml">
-      <configuration name="LoginTest (4)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.10.30 at 20h 06m 21s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_(1) - 2019.10.30 at 20h 22m 30s.xml">
-      <configuration name="LoginTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_(1) - 2019.10.30 at 20h 27m 24s.xml">
-      <configuration name="LoginTest (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTest_(2) - 2019.10.30 at 20h 27m 51s.xml">
       <configuration name="LoginTest (2)" configurationId="TestNG" />
     </history-entry>
@@ -600,9 +704,27 @@
     <history-entry file="LoginTest_(3) - 2019.11.20 at 21h 17m 52s.xml">
       <configuration name="LoginTest (3)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__qingqing_mooc_AutoTest_chapter_12_src_main_resources_testng_xml - 2019.12.29 at 11h 23m 14s.xml">
+      <configuration name="E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_testLoginTrue - 2019.12.29 at 11h 26m 32s.xml">
+      <configuration name="LoginTest.testLoginTrue" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_testLoginFalse - 2019.12.29 at 11h 26m 58s.xml">
+      <configuration name="LoginTest.testLoginFalse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__qingqing_mooc_AutoTest_chapter_12_src_main_resources_testng_xml - 2019.12.29 at 11h 28m 41s.xml">
+      <configuration name="E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddUserTest_testAddUser - 2019.12.29 at 11h 29m 39s.xml">
+      <configuration name="AddUserTest.testAddUser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__qingqing_mooc_AutoTest_chapter_12_src_main_resources_testng_xml - 2019.12.29 at 11h 30m 41s.xml">
+      <configuration name="E:/qingqing/mooc/AutoTest/chapter_12/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127711000" />
+    <option name="totallyTimeSpent" value="129620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +736,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -629,15 +751,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5148515" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.2970297" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49924356" weight="0.26072606" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.19966997" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.5066007" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924472" weight="0.3476112" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924472" weight="0.28712872" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -646,7 +769,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.2970297" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
@@ -664,16 +786,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -827,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/model/AddUserCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter_11/src/main/resources/mapper/mysql.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -904,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/model/LoginCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -974,10 +1072,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/model/AddUserCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,8 +1105,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/UpdateUserInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="340">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/DependencyMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -996,32 +1132,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        <state relative-caret-position="136">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/AddUserTest.java">
+    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/resources/mapper/mysql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_12/src/main/java/com/course/cases/GetUserListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
         </state>
       </provider>
     </entry>

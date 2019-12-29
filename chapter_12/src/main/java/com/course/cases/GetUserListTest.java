@@ -9,10 +9,10 @@ import java.io.IOException;
 
 public class GetUserListTest {
 
-    @Test(dependsOnGroups = "LoginTrue",description = "获取用户列表")
-    public void getUserInfoListTest() throws IOException{
+    @Test(dependsOnGroups = "loginTrue",description = "获取用户列表")
+    public void testGetUserList() throws IOException{
         SqlSession session = databaseUtil.getSqlsession();
-        GetUserListTest getUserInfoListCase = session.selectOne("getUserInfoListCase",1);
+        GetUserListTest getUserInfoListCase = session.selectOne("getUserListCase",1);
         System.out.println(getUserInfoListCase.toString());
         System.out.println(TestConfig.getUserListUrl);
     }

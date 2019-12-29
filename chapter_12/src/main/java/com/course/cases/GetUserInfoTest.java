@@ -9,8 +9,8 @@ import java.io.IOException;
 
 public class GetUserInfoTest {
 
-    @Test(dependsOnGroups = "LonginTrue",description = "获取用户信息")
-    public void getUserINfoTest()throws IOException {
+    @Test(dependsOnGroups = "loginTrue",description = "获取用户信息")
+    public void getUserInfo()throws IOException {
         SqlSession session = databaseUtil.getSqlsession();
         GetUserInfoTest getUserInfoCase = session.selectOne("getUserInfoCase",1);
         System.out.println(getUserInfoCase.toString());

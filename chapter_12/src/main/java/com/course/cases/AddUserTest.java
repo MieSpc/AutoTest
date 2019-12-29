@@ -9,8 +9,8 @@ import java.io.IOException;
 
 public class AddUserTest {
 
-    @Test(dependsOnGroups = "LoginTrue",description = "添加用户")
-    public void addUser() throws IOException{
+    @Test(dependsOnGroups = "loginTrue",description = "添加用户")
+    public void testAddUser() throws IOException{
         SqlSession session = databaseUtil.getSqlsession();
         AddUserTest addUserCase = session.selectOne("addUserCase",1);
         System.out.println(addUserCase.toString());
