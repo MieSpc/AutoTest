@@ -16,7 +16,7 @@
     </select>
 
     <!--获取用户接口case-->
-    <select id="getUserInfoCase" parameterType="Integer" resultType="com.course.model.GetUseInfoCase">
+    <select id="getUserInfoCase" parameterType="Integer" resultType="com.course.model.GetUserInfoCase">
         select * from t_getuserinfocase where id = #{id};
     </select>
 
